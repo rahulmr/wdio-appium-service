@@ -1,6 +1,6 @@
 Webdriver.io service plugin for Appium
 ======================================
-[![Build Status](https://travis-ci.org/rhysd/wdio-appium-service.svg?branch=master)](https://travis-ci.org/rhysd/wdio-appium-service)
+[![Build Status](https://travis-ci.org/rahulmr/wdio-appium-service.svg?branch=master)](https://travis-ci.org/rahulmr/wdio-appium-service)
 
 [webdriver.io](http://webdriver.io/) service plugin for [Appium](http://appium.io/).  With this service installed, you need not to run Appium manually.
 
