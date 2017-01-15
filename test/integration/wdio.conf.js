@@ -73,10 +73,10 @@ exports.config = {
             commandTimeout: '7200',
             sessionOverride: true,
             debugLogSpacing: true,
-            platformVersion: '10.0',
+            platformVersion: '8.2',
             platformName: 'iOS',
             showIosLog: true,
-            deviceName: 'iPhone 7',
+            deviceName: 'iPhone 6',
             nativeInstrumentsLib: true,
             isolateSimDevice: true,
             app: APP_PATH
