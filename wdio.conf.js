@@ -33,8 +33,8 @@ exports.config = {
         browserName: 'iOS',
         appiumVersion: '1.6.3',
         platformName: 'iOS',
-        platformVersion: '9.3',
-        deviceName: 'iPhone 6',
+        platformVersion: '10.2',
+        deviceName: 'iPhone 6 Plus',
         orientation: 'PORTRAIT',
         automationName: 'XCUITest',
         app: APP_PATH
@@ -73,10 +73,10 @@ exports.config = {
             commandTimeout: '7200',
             sessionOverride: true,
             debugLogSpacing: true,
-            platformVersion: '9.3',
+            platformVersion: '10.2',
             platformName: 'iOS',
             showIosLog: true,
-            deviceName: 'iPhone 6',
+            deviceName: 'iPhone 6 Plus',
             nativeInstrumentsLib: true,
             isolateSimDevice: true,
             app: APP_PATH

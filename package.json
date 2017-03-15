@@ -13,7 +13,7 @@
     "watch": "grunt watch",
     "test": "npm run test:unit && npm run test:integration",
     "test:unit": "mocha --compilers js:babel-register --recursive test/unit",
-    "test:integration": "wdio test/integration/wdio.conf.js"
+    "test:integration": "wdio wdio.conf.js"
   },
   "repository": {
     "type": "git",
