@@ -4,6 +4,7 @@ const path = require('path');
 const APP_PATH = path.join(__dirname, '../node_modules/ios-uicatalog/build/Release-iphonesimulator/UICatalog-iphonesimulator.app');
 
 exports.config = {
+    host:'127.0.0.1',
     port: 4723,
 
     // Note:

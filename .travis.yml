@@ -1,12 +1,13 @@
 language: node_js
 
-node_js: stable
+node_js: lts
 
 os: osx
-osx_image: xcode7.3
+osx_image: xcode8.2
 
 install:
     - npm install
+    - npm install npm@4.1.2
     - npm install appium@1.6.3
 
 script:
