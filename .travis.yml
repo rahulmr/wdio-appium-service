@@ -1,3 +1,4 @@
+sudo: required
 language: node_js
 
 node_js: --lts
@@ -7,8 +8,8 @@ osx_image: xcode8.2
 
 install:
     - npm install
-    - npm install npm@4.1.2
-    - npm install appium@1.6.3
+    - npm i -g npm@4.1.2
+    - npm i appium@1.6.3
 
 script:
     - npm run lint
