@@ -13,6 +13,8 @@ install:
 
 script:
     - npm run lint
+    - ls -ltr **
+    - find . -iname *.app
     - npm run test
 
 after_failure:
